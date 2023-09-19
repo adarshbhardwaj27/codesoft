@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+    <title>Adarsh Bhardwaj - Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Adarsh Bhardwaj</h1>
+        <p>Web Developer | Delhi, India</p>
+    </header>
+<div class="container">
+    <section   class="a" id="about">
+        <img src="photo.jpg" alt="Adarsh Bhardwaj">
+        <p>Hello! I'm Adarsh, a web developer with a passion for creating web applications using modern technologies like React, Django, and more. I'm currently pursuing a Bachelor's in Computer Science and Technology.</p>
+    </section>
+    <section  class="a" id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>React JS</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+    <section class="a" id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Youtube Clone</h3>
+            <p>Developed a fully functional YouTube React clone, leveraging modern web technologies such as React.js, JavaScript, and
+                HTML/CSS. Implemented key features such as video playback, and dynamic content rendering, demonstrating proficiency in
+                front-end development and UI/UX design principles. I used API
+                Integration for rendering real-time content and also used
+                Tailwind CSS. </p>
+        </div>
+        <div class="project">
+            <h3>Todo List
+            </h3>
+            <p>Built with React, JavaScript, Tailwind CSS, and Firebase
+                Storage, this Todo List application allows users to organize and manage their tasks efficiently. The app offers a clean and
+                intuitive user interface, making it easy to add, edit, and delete
+                tasks. Tasks are automatically synced and stored securely in
+                Firebase Storage, ensuring data integrity and accessibility across devices. With this app, users can stay organized, boost
+                productivity, and accomplish their goals with ease. </p>
+        </div>
+    </section>
+    <section class="a" id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume <a href="reume_adarsh.pdf" download>here</a>.</p>
+    </section>
+    <section class="a" id="contact">
+        <h2>Contact</h2>
+        <p>Email: adbsr.27@gmail.com</p>
+        <p>Phone: 8826226722</p>
+    </section>
+   
+</div>
+<footer>
+    <p>&copy; 2023 Adarsh Bhardwaj</p>
+</footer>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const links = document.querySelectorAll('a[href^="#"]');
+        for (const link of links) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+    
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+    
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 50, 
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        }
+    });
+    </script>
+</html>

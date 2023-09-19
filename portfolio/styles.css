@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+} */
+
+.container{
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+header {
+    background-color: #000000;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#about {
+    background-color: wheat;
+    padding: 20px;
+    /* border-radius: 5px; */
+    margin-top: 20px;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+#skills {
+    background-color: wheat;
+    padding: 20px;
+    /* border-radius: 5px; */
+    margin-top: 20px;
+}
+
+#skills h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills li {
+    margin-bottom: 5px;
+}
+
+#projects {
+    background-color: wheat;
+    padding: 20px;
+    /* border-radius: 5px; */
+    margin-top: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.project h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#resume {
+    background-color: wheat;
+    padding: 20px;
+    /* border-radius: 5px; */
+    margin-top: 20px;
+}
+
+#contact {
+    background-color: wheat;
+    padding: 20px;
+    /* border-radius: 5px; */
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: wheat;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+}
+
+#about {
+    background-color: wheat;
+    padding: 20px;
+    /* border-radius: 5px; */
+    margin-top: 20px;
+    text-align: center; 
+}
+
+#about img {
+    max-width: 100%;
+    /* border-radius: 50%; */
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 10px;
+}
+
+section{
+    border-radius: 25px;
+    margin: 1rem 1rem;
+}
+

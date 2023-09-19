@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.middle{
+    padding: 1rem 1rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+.boxes{
+    display : flex;
+    flex-direction : row ;
+    justify-content : space-around;
+    flex-flow : wrap;
+}
+.box{
+    margin: 2rem 1rem;
+    height: 9rem;
+    width: 50%;
+}
+.items{
+    display: flex;
+    padding: 1rem 4rem;
+    background-color: transparent;
+    justify-content: flex-start;
+    list-style: none;
+    height: 2rem;
+}
+
+.a{
+    /* margin: 1rem 2rem; */
+    margin-right: 2rem;
+    height: 100%;
+    font-size: large;
+    
+}
+.bigcont{
+    background-image: url('./burger1.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  height: 30rem;
+}
+
+.item1{
+    font-size: 5rem;
+    padding: 5rem 5rem; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.dov{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 30%;
+    height: 5rem;
+}
+#about {
+    background-color: #F5F5F5;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.about-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
